@@ -2,10 +2,6 @@ name = "grok2api"
 main = "src/index.ts"
 compatibility_date = "2026-01-28"
 
-routes = [
-  { pattern = "grok.531666666.xyz/*", custom_domain = true }
-]
-
 # Static assets (admin UI)
 assets = { directory = "./app/static", binding = "ASSETS" }
 
